@@ -43,6 +43,8 @@ class ViewController: UIViewController,ThirdDelegate {
         label!.text = "界面一"
         self.view.addSubview(label!)
         
+        frame.init(origin: Center.init(pointX: 80.0, pointY: 80.0), originSize: Size.init(width: 30.0, height: 30.0))
+        
     }
 
   @objc  func buttonClick(button:UIButton) -> Void {

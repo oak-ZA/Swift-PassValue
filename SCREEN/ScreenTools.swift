@@ -15,6 +15,29 @@ struct ScrennPix {
     
 }
 
+struct Center {
+    var pointX = 0.0
+    var pointY = 0.0
+}
+struct Size {
+    var width = 0.0
+    var height = 0.0
+}
+struct frame {
+    var origin = Center()
+    var originSize = Size()
+    
+}
+
+
+ extension  frame{
+    init(p: Center, s: Size){
+        let origin_X = p.pointX - s.width/2.0
+        let origin_Y = p.pointY - s.height/2.0
+        self.init(origin: Center.init(pointX: origin_X, pointY: origin_Y), originSize: s)
+    }
+}
+
 
 class LiveView: UIView {
     

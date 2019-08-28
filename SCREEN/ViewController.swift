@@ -8,13 +8,32 @@
 
 import UIKit
 
-class ViewController: UIViewController,ThirdDelegate {
+class ViewController: UIViewController,ThirdDelegate,Eatable {
     var label : UILabel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.view.backgroundColor = UIColor.blue;
+        
+        let s1 = Struct1()
+        s1.method1()
+        s1.method2()
+        let s2: Theprotocol = Struct1()
+        s2.method1()
+        s2.method2()
+        
+        eat()
+        
+        let firstView = FirstTypeView.loadFromNib()
+        firstView.intFrame(rect: CGRect(x: 0, y: 0, width: ScrennPix().width, height: 250))
+        view.addSubview(firstView)
+        
+        
+        
+        
+        
+        
         
         let button = UIButton()
         button.frame = CGRect(x: 80, y: (ScrennPix().height - 80.0)/2.0, width: 80.0, height: 80.0);
@@ -44,6 +63,8 @@ class ViewController: UIViewController,ThirdDelegate {
         self.view.addSubview(label!)
         
         frame.init(origin: Center.init(pointX: 80.0, pointY: 80.0), originSize: Size.init(width: 30.0, height: 30.0))
+        
+        
         
     }
 

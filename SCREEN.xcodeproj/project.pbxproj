@@ -18,6 +18,12 @@
 		A64B6AAF230E457400DE2E84 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64B6AAE230E457400DE2E84 /* SecondViewController.swift */; };
 		A64B6AB1230E5E2E00DE2E84 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64B6AB0230E5E2E00DE2E84 /* ThirdViewController.swift */; };
 		A64B6AB3230E61B600DE2E84 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64B6AB2230E61B600DE2E84 /* FourViewController.swift */; };
+		A6B3993523164E5100361C1D /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3993423164E5100361C1D /* Shakeable.swift */; };
+		A6B399372316661B00361C1D /* Eatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B399362316661B00361C1D /* Eatable.swift */; };
+		A6B399392316667400361C1D /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B399382316667400361C1D /* Dog.swift */; };
+		A6B3993B231668F100361C1D /* FirstTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3993A231668F100361C1D /* FirstTypeView.swift */; };
+		A6B3993D231668FF00361C1D /* FirstTypeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6B3993C231668FF00361C1D /* FirstTypeView.xib */; };
+		A6B3993F23166A2A00361C1D /* Nibloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3993E23166A2A00361C1D /* Nibloadable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,12 @@
 		A64B6AAE230E457400DE2E84 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A64B6AB0230E5E2E00DE2E84 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		A64B6AB2230E61B600DE2E84 /* FourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		A6B3993423164E5100361C1D /* Shakeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakeable.swift; sourceTree = "<group>"; };
+		A6B399362316661B00361C1D /* Eatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eatable.swift; sourceTree = "<group>"; };
+		A6B399382316667400361C1D /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		A6B3993A231668F100361C1D /* FirstTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTypeView.swift; sourceTree = "<group>"; };
+		A6B3993C231668FF00361C1D /* FirstTypeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstTypeView.xib; sourceTree = "<group>"; };
+		A6B3993E23166A2A00361C1D /* Nibloadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nibloadable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,12 @@
 				A64B6AAE230E457400DE2E84 /* SecondViewController.swift */,
 				A64B6AB0230E5E2E00DE2E84 /* ThirdViewController.swift */,
 				A64B6AB2230E61B600DE2E84 /* FourViewController.swift */,
+				A6B3993E23166A2A00361C1D /* Nibloadable.swift */,
+				A6B3993A231668F100361C1D /* FirstTypeView.swift */,
+				A6B3993C231668FF00361C1D /* FirstTypeView.xib */,
+				A6B3993423164E5100361C1D /* Shakeable.swift */,
+				A6B399362316661B00361C1D /* Eatable.swift */,
+				A6B399382316667400361C1D /* Dog.swift */,
 				A60C436A230BB9290062F957 /* ScreenTools.swift */,
 				A60C4340230BB9030062F957 /* Main.storyboard */,
 				A60C4343230BB9060062F957 /* Assets.xcassets */,
@@ -244,6 +262,7 @@
 				A60C4347230BB9060062F957 /* LaunchScreen.storyboard in Resources */,
 				A60C4344230BB9060062F957 /* Assets.xcassets in Resources */,
 				A60C4342230BB9030062F957 /* Main.storyboard in Resources */,
+				A6B3993D231668FF00361C1D /* FirstTypeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +289,14 @@
 			files = (
 				A64B6AAF230E457400DE2E84 /* SecondViewController.swift in Sources */,
 				A60C433F230BB9030062F957 /* ViewController.swift in Sources */,
+				A6B3993523164E5100361C1D /* Shakeable.swift in Sources */,
 				A64B6AB3230E61B600DE2E84 /* FourViewController.swift in Sources */,
 				A64B6AB1230E5E2E00DE2E84 /* ThirdViewController.swift in Sources */,
+				A6B3993B231668F100361C1D /* FirstTypeView.swift in Sources */,
+				A6B3993F23166A2A00361C1D /* Nibloadable.swift in Sources */,
+				A6B399392316667400361C1D /* Dog.swift in Sources */,
 				A60C436B230BB9290062F957 /* ScreenTools.swift in Sources */,
+				A6B399372316661B00361C1D /* Eatable.swift in Sources */,
 				A60C433D230BB9030062F957 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
